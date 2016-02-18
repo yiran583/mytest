@@ -18,12 +18,6 @@ public class FilesZip {
 	public static void main(String[] args) throws Exception {
 		FileSystem fileSystem = FileSystems.newFileSystem(Paths.get("/config.zip"), null);
 		Files.walkFileTree(fileSystem.getPath("/"), new SimpleFileVisitor<Path>(){
-//			@Override
-//			public FileVisitResult visitFile(Path paramT,BasicFileAttributes paramBasicFileAttributes) throws IOException {
-//				System.out.println(paramT);
-//				return FileVisitResult.CONTINUE;
-//			}
-			
 			// 啦啦啦啦
 			
 			@Override
