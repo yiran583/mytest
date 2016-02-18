@@ -19,7 +19,6 @@ public class FilesZip {
 		FileSystem fileSystem = FileSystems.newFileSystem(Paths.get("/config.zip"), null);
 		Files.walkFileTree(fileSystem.getPath("/"), new SimpleFileVisitor<Path>(){
 			// 啦啦啦啦
-			// 测试 哈哈哈
 			@Override
 			public FileVisitResult preVisitDirectory(Path paramT,BasicFileAttributes paramBasicFileAttributes) throws IOException {
 				System.out.println(paramT);
