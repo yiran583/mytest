@@ -22,6 +22,8 @@ import java.util.Observer;
 // 3
 // 4
 
+// 7867787
+
 // You must inherit a new type of Observable:
 
 class BoxObservable extends Observable {
