@@ -17,6 +17,11 @@ import java.util.Observable;
 import java.util.Observer;
 
 // Eclipse2
+// 1
+// 2
+// 3
+// 4
+
 // You must inherit a new type of Observable:
 
 class BoxObservable extends Observable {
