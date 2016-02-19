@@ -15,7 +15,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.Observable;
 import java.util.Observer;
-// eclipse1
+
 // Eclipse2
 // 1
 // 2
@@ -62,9 +62,7 @@ class OCBox extends Canvas implements Observer {
 	Observable notifier;
 	int x, y; // Locations in grid
 	Color cColor = newColor();
-	static final Color[] colors = { Color.black, Color.blue, Color.cyan,
-			Color.darkGray, Color.gray, Color.green, Color.lightGray,
-			Color.magenta, Color.orange, Color.pink, Color.red, Color.white,
+	static final Color[] colors = { Color.black, Color.blue, Color.cyan, Color.darkGray, Color.gray, Color.green, Color.lightGray, Color.magenta, Color.orange, Color.pink, Color.red, Color.white,
 			Color.yellow };
 
 	static final Color newColor() {
