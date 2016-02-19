@@ -15,7 +15,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.Observable;
 import java.util.Observer;
-
+// eclipse1
 // You must inherit a new type of Observable:
 
 class BoxObservable extends Observable {
