@@ -26,6 +26,8 @@ import java.util.Observer;
 
 // commmit 
 
+
+// 呵呵呵
 // You must inherit a new type of Observable:
 
 class BoxObservable extends Observable {
