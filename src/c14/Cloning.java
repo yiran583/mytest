@@ -14,6 +14,8 @@ import java.util.Vector;
 // branch1111
 
 // local
+
+// 文本
 class Int {
 	private int i;
 
