@@ -12,6 +12,8 @@ import java.util.Vector;
 // branch111
 // master
 // branch1111
+
+// 文本
 class Int {
 	private int i;
 
