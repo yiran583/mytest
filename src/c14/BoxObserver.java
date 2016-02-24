@@ -34,6 +34,9 @@ import java.util.Observer;
 
 // 。。。。。。。。。。。。。。。
 
+
+// 我是涂贤田
+
 class BoxObservable extends Observable {
 	public void notifyObservers(Object b) {
 		// Otherwise it won't propagate changes:
