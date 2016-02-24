@@ -35,6 +35,9 @@ import java.util.Observer;
 // 。。。。。。。。。。。。。。。
 
 
+// 我是涂贤田
+// 我是小甜甜
+
 // jiaotd
 class BoxObservable extends Observable {
 	public void notifyObservers(Object b) {
