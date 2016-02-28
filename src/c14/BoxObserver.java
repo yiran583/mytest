@@ -40,6 +40,10 @@ import java.util.Observer;
 
 // jiaotd
 // ..
+
+
+//他人修改
+
 class BoxObservable extends Observable {
 	public void notifyObservers(Object b) {
 		// Otherwise it won't propagate changes:
