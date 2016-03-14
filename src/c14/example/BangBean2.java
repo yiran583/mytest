@@ -27,6 +27,7 @@ public class BangBean2 extends Canvas implements Serializable {
 	private Color tColor = Color.red;
 	private Vector actionListeners = new Vector();
 
+	// BigBang
 	public BangBean2() {
 		addMouseListener(new MouseAdapter() {
 			public void mousePressed(MouseEvent e) {
