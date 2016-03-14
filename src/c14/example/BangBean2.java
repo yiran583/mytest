@@ -27,6 +27,9 @@ public class BangBean2 extends Canvas implements Serializable {
 	private Color tColor = Color.red;
 	private Vector actionListeners = new Vector();
 
+	/**
+	 * @author Yiran583
+	 */
 	public BangBean2() {
 		addMouseListener(new MouseAdapter() {
 			public void mousePressed(MouseEvent e) {
@@ -34,7 +37,8 @@ public class BangBean2 extends Canvas implements Serializable {
 				g.setColor(tColor);
 				g.setFont(new Font("TimesRoman", Font.BOLD, fontSize));
 				int width = g.getFontMetrics().stringWidth(text);
-				g.drawString(text, (getSize().width - width) / 2, getSize().height / 2);
+				g.drawString(text, (getSize().width - width) / 2,
+						getSize().height / 2);
 				g.dispose();
 				notifyListeners();
 			}
@@ -98,7 +102,8 @@ public class BangBean2 extends Canvas implements Serializable {
 
 	// Notice this isn't synchronized:
 	public void notifyListeners() {
-		ActionEvent a = new ActionEvent(BangBean2.this, ActionEvent.ACTION_PERFORMED, null);
+		ActionEvent a = new ActionEvent(BangBean2.this,
+				ActionEvent.ACTION_PERFORMED, null);
 		Vector lv = null;
 		// Make a copy of the vector in case someone
 		// adds a listener while we're
@@ -119,7 +124,8 @@ public class BangBean2 extends Canvas implements Serializable {
 			g.setColor(tColor);
 			g.setFont(new Font("TimesRoman", Font.BOLD, fontSize));
 			int width = g.getFontMetrics().stringWidth(text);
-			g.drawString(text, (getSize().width - width) / 2, getSize().height / 2);
+			g.drawString(text, (getSize().width - width) / 2,
+					getSize().height / 2);
 			g.dispose();
 			notifyListeners();
 		}
