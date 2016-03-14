@@ -31,6 +31,7 @@ public class BangBean2 extends Canvas implements Serializable {
 	 * @author Yiran583
 	 */
 	 	// BigBang
+	// DuangDuang~~~~~~~~~
 	public BangBean2() {
 		addMouseListener(new MouseAdapter() {
 			public void mousePressed(MouseEvent e) {
