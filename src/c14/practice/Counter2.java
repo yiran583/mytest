@@ -15,7 +15,8 @@ import java.awt.event.WindowEvent;
 
 @SuppressWarnings("serial")
 public class Counter2 extends Applet {
-
+	
+	/// 
 	final TextField t = new TextField(10);
 	private SeparateSubTask sp = null;
 	private Button onOff = new Button("Toggle"), start = new Button("Start");
