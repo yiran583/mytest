@@ -23,6 +23,8 @@ import java.io.Writer;
 
 //////////// The basic framework ///////////
 class Blockable extends Thread {
+	
+	///mmmmmmmmmmmmmmmmm
 	private Peeker peeker;
 	protected TextField state = new TextField(40);
 	protected int i;
